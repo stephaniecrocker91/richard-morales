@@ -1,0 +1,68 @@
+.Subtitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.IntroText {
+    margin-top: 50px;
+}
+
+
+.BioText{
+    text-align: left;
+}
+
+.BioImage{
+    width: 25vw;
+    max-height: 50vh;
+}
+
+.Margin {
+    margin-top: 50px;
+}
+
+.ServiceLinks a{
+    margin-right: 20px;
+    text-decoration: none!important;
+    color: black;
+    cursor: pointer;
+}
+
+.Mobile {
+    display: none;
+}
+.Desktop{
+    display:block;
+}
+
+@media screen and (max-width: 767px) {
+
+    .BioText{
+        text-align: center;
+    }
+    .BioImage{
+        width: 40vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .BioImage{
+        width: 70vw;
+        height: 40vh;
+    }
+    .Mobile {
+        display: block;
+    }
+    .Desktop{
+        display:none;
+    }
+}
+
+
+
+
+
+
